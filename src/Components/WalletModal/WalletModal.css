@@ -1,0 +1,71 @@
+.connect_wallet {
+    position: relative;
+}
+.connect_wallet .close {
+    position: absolute;
+    right: -25px;
+    top: -30px;
+    cursor: pointer;
+}
+.connect_wallet .close svg {
+    color: #777;
+}
+.connect_wallet h1 {
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 27px;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    font-family: "Inter", sans-serif !important;
+}
+.connect_wallet .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #141515;
+    margin-bottom: 10px !important;
+    padding: 12px;
+    margin: auto;
+}
+.connect_wallet .logo img {
+    max-width: 100%;
+    width: 100%;
+}
+.connect_wallet .walletlist button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    background-color: #404144;
+    height: 50px;
+    border-radius: 6px;
+    padding: 0 20px;
+    margin-bottom: 12px;
+    transition: 1s;
+}
+.connect_wallet .walletlist button:hover {
+    background-image: linear-gradient(#00000026 0 0);
+}
+.connect_wallet .walletlist {
+    height: fit-content;
+    transition: all.5s;
+}
+.connect_wallet .newwallet {
+    height: 0;
+    display: none;
+    transition: all.5s;
+}
+.connect_wallet .walletlist button img {
+    width: 24px;
+}
+.connect_wallet .walletlist button p {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 600;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend', sans-serif;
+  background-color: #22132e;
+}
+
+button{
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.MuiTypography-root{
+  font-family: 'Lexend', sans-serif !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.slick-list {
+  margin: 0 -15px;
+}
+.slick-slide > div {
+  padding: 0 15px;
+}
+.visibialedetail .viewimage img {
+  max-width: 100%;
+  width: 430px;
+  border-radius: 16px;
+}
+.visibialedetail {
+  position: relative;
+}
+
+.visibialedetail .viewdetail .checkdetail p {
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #6b7280;
+  font-weight: 700;
+}
+.visibialedetail .viewdetail .checkdetail {
+  display: flex;
+  align-items: center;
+}
+.visibialedetail .viewdetail .checkdetail p:hover {
+  color: #8ccf26;
+}
+.visibialedetail .viewdetail .checkdetail svg {
+  background-color: #8ccf26;
+  border-radius: 100%;
+  font-size: 16px;
+}
+.visibialedetail .viewdetail h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 320px;
+}
+.visibialedetail .viewdetail .view {
+  display: flex;
+  margin: 6px 0;
+}
+.visibialedetail .viewdetail a {
+  color: #8156e1;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: 8px;
+}
+.visibialedetail .viewimage {
+  margin-right: 20px;
+}
+.visibialedetail .viewdetail img {
+  width: 20px;
+}
+.visibialedetail .viewimagedetail .solscan {
+  margin: 16px 0;
+}
+.visibialedetail .viewimagedetail .solscan h3 {
+  color: #a78bef;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.visibialedetail .viewimagedetail .solscan p {
+  color: #fff;
+}
+.visibialedetail .closemodal {
+  position: absolute;
+  top: -70px;
+  right: -85px;
+}
+
+.visibialedetail .closemodal svg {
+  color: #fff;
+  font-size: 55px;
+}
+.visibialedetail .closemodal svg:hover {
+  color: #8156e1;
+}
+@media (max-width: 1199px) {
+  .viewdetails {
+      padding: 20px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .visibialedetail .viewdetail h1 {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .visibialedetail .closemodal {
+      position: absolute;
+      top: -55px;
+      right: -70px;
+  }
+}
+@media (max-width: 900px) {
+  .visibialedetail .viewimage img {
+      width: 230px;
+  }
+}
+@media (max-width: 600px) {
+  .visibialedetail .viewdetail h1 {
+      font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .visibialedetail .viewimagedetail .solscan {
+      margin: 10px 0;
+  }
+}
+@media (max-width: 600px) {
+  .viewdetails {
+      width: calc(80% - 45px) !important;
+  }
+}
